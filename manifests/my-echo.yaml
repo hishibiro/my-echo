@@ -15,6 +15,7 @@ spec:
       containers:
       - name: my-echo
         image: ysakashita/my-echo:20231108
+        magePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
