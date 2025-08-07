@@ -15,7 +15,7 @@ spec:
       containers:
       - name: my-echo
         image: hishibiro/my-echo:20250807
-        magePullPolicy: Always
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
